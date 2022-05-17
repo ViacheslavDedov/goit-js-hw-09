@@ -16,3 +16,23 @@ img {
   display: block;
   max-width: 100%;
 }
+
+/* ----- color-swither ----- */
+
+button {
+  padding: 10px 40px;
+  text-align: center;
+}
+
+.switcher {
+  width: 100%;
+  text-align: center;
+}
+
+.switcher button {
+  margin-top: calc(50%/2);
+}
+
+.switcher p {
+  text-align: left;
+}
