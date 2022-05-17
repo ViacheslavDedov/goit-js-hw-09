@@ -19,18 +19,15 @@ img {
 
 /* ----- color-swither ----- */
 
-button {
+.switcher button {
   padding: 20px 40px;
   font-size: large;
+  margin-top: calc(40%/2);
 }
 
 .switcher {
   width: 100%;
   text-align: center;
-}
-
-.switcher button {
-  margin-top: calc(40%/2);
 }
 
 .switcher p {
