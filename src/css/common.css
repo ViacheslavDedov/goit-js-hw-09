@@ -33,3 +33,26 @@ img {
 .switcher p {
   text-align: left;
 }
+
+/* ----- timer ----- */
+
+.timer {
+  display: flex;
+}
+
+.field {
+  margin-top: 10px;
+  margin-right: 20px;
+}
+
+.value {
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+}
+
+.label {
+  display: flex;
+  justify-content: center;
+  font-size: large;
+}
