@@ -36,7 +36,8 @@ const options = {
         });
         refs.btnInput.addEventListener('click', () => {
             timer.start(); 
-            refs.dateTimePicker.setAttribute('disabled', '')
+            refs.dateTimePicker.setAttribute('disabled', '');
+            refs.btnInput.setAttribute('disabled', '');
         }, )
         refs.btnInput.removeAttribute('disabled');
         refs.btnInput.classList.add('active');  
